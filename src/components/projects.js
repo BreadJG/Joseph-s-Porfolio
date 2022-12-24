@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import CarouselFade from "./carouselFade";
 import PROJECTCARDS from "./projectCards";
 
