@@ -1,4 +1,7 @@
 /* Home css */
+html{
+  overflow: hidden;
+}
 
 * {
   opacity: 1;
@@ -16,7 +19,7 @@
 }
 
 .container {
-  min-height: 100vh;
+  height: 100vh;
   font-family: Montserrat, sans-serif;
   margin: 0 !important;
   padding: 0 !important;
@@ -120,7 +123,6 @@ section:target p {
 }
 #second {
     background: var(--complimentary-color);
-    align-items: center;
   }
 
 #third {
@@ -340,4 +342,9 @@ section:target p {
   .allCards{
     display: block;
   }
+}
+
+/* about css */
+.aboutTable {
+  height: 50vh;
 }

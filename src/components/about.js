@@ -9,12 +9,12 @@ function ABOUT () {
 
     return(
         <div className="spacePaste my-3">
-            <div className="text-center mb-3">
+            <div className="text-center mb-3 py-2">
                 <h1>About Me</h1>
                 <h3 className="text-warning">I am a Junior Web Developer and Digital Marketing Specialist from Long Beach, California.</h3>
             </div>
 
-            <div className="text-center mb-3">
+            <div className="text-center mb-3 overflow-scroll aboutTable border p-1 rounded border-warning">
                 <p className="text-light">
                 Hi, my name is Joseph, I am starting a career in web development with a background in digital marketing. I received my Full Stack Developer certificate from Digital Crafts and am exited to grow and learn more in the field.
 
